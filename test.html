@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .block1 {
+            border: 1px solid black;
+        }
+
+        .block2 {
+            border: 3px solid black;
+        }
+
+        .block1,
+        .block2 {
+            border-left: 120px solid transparent;
+            border-right: 120px solid transparent;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="block1"> Simple fade </div>
+
+
+
+
+    <side-note>
+
+        If you don't need those big spaces around the content,
+        you may need another div within the bordered one, or
+        play with :before / :after, I just didn't want to make
+        this example more complex than it needs to be.
+
+    </side-note>
+</body>
+
+</html>
